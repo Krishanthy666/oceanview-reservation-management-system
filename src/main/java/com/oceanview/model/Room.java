@@ -4,7 +4,7 @@ public class Room {
     private int roomId;
     private String roomNumber;
     private int typeId;
-    private String typeName; // For display purposes (joined data)
+    private String typeName; // For display purposes 
     private String status; // AVAILABLE, OCCUPIED, UNDER_MAINTENANCE
     private int floorNumber;
 

@@ -4,10 +4,11 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 public class Reservation {
-    private int reservationId;
     private String guestName;
     private String guestAddress;
     private String guestContact;
+    private int reservationId;
+
 
     private int roomId;       // Foreign Key
     private String roomNumber; // For display (Joined data)

@@ -3,7 +3,7 @@ package com.oceanview.model;
 public class User {
     private int userId;
     private String username;
-    private String passwordHash; // Used only for login logic
+    private String passwordHash; // Used only for login 
     private String role; // "ADMIN" or "STAFF"
 
     // Constructors
